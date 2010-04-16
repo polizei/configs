@@ -1,0 +1,95 @@
+# ~/.bashrc - bash interactive session config
+
+# is this an interactive session?
+[ -z "$PS1" ] && return
+
+
+#
+# prompt string
+#
+## common colors
+reset='\[\033[00m\]'
+red='\[\033[01;31m\]'
+blue='\[\033[01;34m\]'
+pink='\[\033[01;35m\]'
+
+## make it fancy
+PS1="${reset}[${red}\u${reset}@${blue}\h${reset}(${pink}\w${reset})]\$ "
+
+## some cleanup
+unset reset red blue pink
+
+
+#
+# ls colors
+#
+eval `dircolors --sh`
+
+
+#
+# aliases
+#
+## ls aliases
+alias ls='ls -ACF --color=auto'
+alias ll='ls -hAlF --color=auto --time-style=long-iso'
+alias l='ls -AlF --color=auto --time-style=long-iso'
+
+## dooh!
+alias lq='ls -Q --quoting-style=locale'
+alias sl='ls'
+alias ks='ls'
+alias LS='ls'
+
+## other useful/useless aliases
+alias rm='rm -rf'
+alias grep='grep --color=auto'
+alias df='df -h'
+alias du='du -h'
+alias dirsize='du -csh'
+
+## util-linux-ng's rename is lame, perl's one is way better
+alias rename='prename'
+
+## i hate the .viminfo
+alias vim='vim -i NONE'
+
+## fix some other typos i make intensively
+alias CD='cd'
+alias cd.='source /usr/local/bin/cd.'
+alias cd..='cd ..'
+
+## some administrative ones
+alias su='sudo su'
+alias chown='sudo chown'
+alias pacman='sudo pacman'
+
+
+#
+# add /usr/local/bin, /usr/local/sbin and ~/bin to path
+#
+[[ ! $PATH =~ "/usr/local/bin" ]]	&& PATH="${PATH}:/usr/local/bin"
+[[ ! $PATH =~ "/usr/local/sbin" ]]	&& PATH="${PATH}:/usr/local/sbin"
+[[ -d "${HOME}/bin" ]]				&& PATH="${HOME}/bin:${PATH}"
+
+#
+# disable some common history files (i hate'em)
+#
+HISTFILE=/dev/null
+LESSHSTFILE=/dev/null
+
+
+#
+# set some other handy stuff
+#
+SVN_EDITOR=vim
+
+
+#
+# show message-of-the-day if script is installed
+#
+[[ ! -z `type -p motd` ]] && motd
+
+#
+# export settings
+#
+export PS1 HISTFILE LESSHSTFILE SVN_EDITOR

@@ -1,0 +1,3 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<fileType name="Archives" description="Archive files" defaultExtension="jar" extensions="jar;war;zip;ear;;" binary="true" openExternally="0" openWithCommand="null" askBeforeOpenning="true"/>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<zde_properties>
+	<properties>
+		<customized_property ID="useHTTPProxy">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="HTTPProxyHost">
+			<string value=""/>
+		</customized_property>
+		<customized_property ID="HTTPProxyPort">
+			<integer value="-1"/>
+		</customized_property>
+		<customized_property ID="HTTPProxyUser">
+			<string value=""/>
+		</customized_property>
+		<customized_property ID="HTTPProxyPassword">
+			<string value=""/>
+		</customized_property>
+		<customized_property ID="useHTTPProxyAuthentication">
+			<boolean value="false"/>
+		</customized_property>
+	</properties>
+</zde_properties>

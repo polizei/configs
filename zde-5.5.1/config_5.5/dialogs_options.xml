@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<zde_properties>
+	<properties>
+		<customized_property ID="application.showTipsDialog">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="desktop.helpAgent">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="application.showAnalayzerDialog">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="project.saveAsProjectDialog">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="application.showListDialog">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="application.showUpdateDialog">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="application.showDebugConflictDialog">
+			<boolean value="false"/>
+		</customized_property>
+	</properties>
+</zde_properties>

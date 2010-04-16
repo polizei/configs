@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<zde_properties>
+	<properties>
+		<customized_property ID="sql.tabbedResults">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="sql.pageSize">
+			<integer value="100"/>
+		</customized_property>
+		<customized_property ID="sql.useLimit">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="sql.tableClickBehaviour">
+			<string value="Show Data"/>
+		</customized_property>
+		<customized_property ID="sql.basicClickBehaviour">
+			<string value="Do Nothing"/>
+		</customized_property>
+		<customized_property ID="sql.dateFormat">
+			<string value="yyyy/MM/dd HH:mm:ss"/>
+		</customized_property>
+		<customized_property ID="sql.historyLimit">
+			<integer value="100"/>
+		</customized_property>
+	</properties>
+</zde_properties>

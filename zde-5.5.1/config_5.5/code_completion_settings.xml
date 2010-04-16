@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<zde_properties>
+	<properties>
+		<customized_property ID="completion.phpAutoShowCompletion">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="completion.phpShowFewerThan">
+			<integer value="500"/>
+		</customized_property>
+		<customized_property ID="completion.phpDelay">
+			<integer value="0"/>
+		</customized_property>
+		<customized_property ID="completion.phpAutoClassNames">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="completion.phpAutoVariables">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="completion.phpAutoFunctions">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="completion.phpVariablesFromOtherFiles">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="completion.phpObjectsFromOtherFiles">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="completion.phpDisableConstants">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="completion.phpCaseSensitiveForConstants">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="completion.phpAutoFunctionsArguments">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="completion.phpFullFunctionPrototype">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="completion.phpStrictLanguage">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="completion.phpDescriptions">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="completion.phpDescriptionDelay">
+			<integer value="150"/>
+		</customized_property>
+		<customized_property ID="completion.phpclassNamesInGlobalsList">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="completion.phpRemoveEnding">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="completion.htmlAutoShowCompletion">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="completion.htmlShowFewerThan">
+			<integer value="500"/>
+		</customized_property>
+		<customized_property ID="completion.htmlDelay">
+			<integer value="0"/>
+		</customized_property>
+		<customized_property ID="completion.htmlAutoTags">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="completion.htmlAutoAtributes">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="completion.htmlAutoAtributesValues">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="editing.htmlTagUppercase">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="completion.htmlRemoveEnding">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="completion.xhtmlTagStyle">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="javaBridge.defaultJRE">
+			<jreModel JRE_Name="1.5.0_06" JRE_Path="/home/ninja/Zend/ZendStudio-5.5.1/jre"/>
+		</customized_property>
+		<customized_property ID="javaBridge.JREs">
+			<JREs>
+				<jreModel JRE_Name="1.5.0_06" JRE_Path="/home/ninja/Zend/ZendStudio-5.5.1/jre"/>
+			</JREs>
+		</customized_property>
+	</properties>
+</zde_properties>

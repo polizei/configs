@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<fileTypeGroup name="Web Documents" description="Web Documents">
+	<fileType name="PHP files" description="PHP files" defaultExtension="php" extensions="php;php3;php4;phtml;inc;tpl;" binary="false" openExternally="0" openWithCommand="null" askBeforeOpenning="false"/>
+	<fileType name="HTML files" description="HTML files" defaultExtension="html" extensions="html;htm;shtml;xhtml;shtm;sht;" binary="false" openExternally="0" openWithCommand="null" askBeforeOpenning="false"/>
+	<fileType name="JavaScript files" description="JavaScript files" defaultExtension="js" extensions="js;" binary="false" openExternally="0" openWithCommand="null" askBeforeOpenning="false"/>
+	<fileType name="CSS files" description="CSS files" defaultExtension="css" extensions="css;" binary="false" openExternally="0" openWithCommand="null" askBeforeOpenning="false"/>
+</fileTypeGroup>

@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<zde_properties>
+	<properties>
+		<customized_property ID="debugging.localDebugging">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="debugging.serverHost">
+			<url spec="http://Server_Address/" local=" false"/>
+		</customized_property>
+		<customized_property ID="debugging.debugPort">
+			<integer value="10000"/>
+		</customized_property>
+		<customized_property ID="debugging.showHeader">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="debugging.dummyFile">
+			<string value="dummy.php"/>
+		</customized_property>
+		<customized_property ID="debugging.tempFilesLocation">
+			<file name="/home/polizei"/>
+		</customized_property>
+		<customized_property ID="debugging.serverResponseTimeout">
+			<integer value="10"/>
+		</customized_property>
+		<customized_property ID="debugging.firstLineBreakpoint">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="debugging.variableDisplay">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="debugging.useOutputEncoding">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="debugging.outputEncoding">
+			<encoding name="default"/>
+		</customized_property>
+		<customized_property ID="debugging.startEndFilter">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="debugging.noticesdFilter">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="debugging.warningFilter">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="debugging.errorFilter">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="debugging.strictFilter">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="debugging.grabFocusOnDebugSession">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="debugging.autoOpenDebugWindow">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="debugging.autoOpenDebugMessagesWindow">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="debugging.autoOpenOutputWindow">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="debugging.useDefaultClientIP">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="debugging.encryptedData">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="debugging.customizedClientIP">
+			<string value=""/>
+		</customized_property>
+		<customized_property ID="debugging.httpServerPort">
+			<integer value="20080"/>
+		</customized_property>
+		<customized_property ID="debugging.tunnelHost">
+			<string value=""/>
+		</customized_property>
+		<customized_property ID="debugging.tunnelPort">
+			<integer value="80"/>
+		</customized_property>
+		<customized_property ID="debugging.autoConnectTunnel">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="debugging.tunnelReturnHost">
+			<string value=""/>
+		</customized_property>
+		<customized_property ID="debugging.tunnelRandomPort">
+			<integer value="-1"/>
+		</customized_property>
+		<customized_property ID="debugging.fastFile">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="debugging.tunnelUseAuthentication">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="debugging.tunnelAuthUsername">
+			<string value=""/>
+		</customized_property>
+		<customized_property ID="debugging.tunnelAuthPassword">
+			<string value=""/>
+		</customized_property>
+	</properties>
+</zde_properties>

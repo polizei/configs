@@ -1,0 +1,682 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<keyMap>
+	<keyMapProperty id="editorComponent.openDocument" name="openDocument" displayKey="70">
+		<values>
+			<keyStroke keyCode="79" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="79" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editor.toggleLineWrap" name="toggleLineWrap" displayKey="1214">
+		<values/>
+		<initialvalues>
+			<keyStroke keyCode="87" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="project.openProject" name="openProject" displayKey="77">
+		<values>
+			<keyStroke keyCode="79" modifiers="195"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="79" modifiers="195"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editorComponent.newDocument" name="newDocument" displayKey="71">
+		<values>
+			<keyStroke keyCode="78" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="78" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editnig.heading2Tag" name="heading2Tag" displayKey="510">
+		<values>
+			<keyStroke keyCode="50" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="50" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="vcs.checkout" name="checkout" displayKey="603">
+		<values/>
+		<initialvalues/>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.forward" name="forward" displayKey="656">
+		<values>
+			<keyStroke keyCode="39" modifiers="520"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="39" modifiers="520"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editor.foldNonPHP" name="foldNonPHP" displayKey="1784">
+		<values>
+			<keyStroke keyCode="49" modifiers="195"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="49" modifiers="195"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="debugging.go" name="go" displayKey="84">
+		<values>
+			<keyStroke keyCode="116" modifiers="0"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="116" modifiers="0"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="vcs.commit" name="commit" displayKey="583">
+		<values>
+			<keyStroke keyCode="67" modifiers="520"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="67" modifiers="520"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="vcs.status" name="status" displayKey="602">
+		<values/>
+		<initialvalues/>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.back" name="back" displayKey="655">
+		<values>
+			<keyStroke keyCode="37" modifiers="520"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="37" modifiers="520"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="project.checkIncludes" name="checkIncludes" displayKey="342">
+		<values>
+			<keyStroke keyCode="73" modifiers="195"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="73" modifiers="195"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="vcs.add" name="add" displayKey="587">
+		<values/>
+		<initialvalues/>
+	</keyMapProperty>
+	<keyMapProperty id="completionTool.showCompletionList" name="showCompletionList" displayKey="67">
+		<values>
+			<keyStroke keyCode="32" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="32" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.selectAll" name="selectAll" displayKey="738">
+		<values>
+			<keyStroke keyCode="65" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="65" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="debugging.gotoCursor" name="gotoCursor" displayKey="422">
+		<values>
+			<keyStroke keyCode="121" modifiers="65"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="121" modifiers="65"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editorComponent.saveAll" name="saveAll" displayKey="69">
+		<values>
+			<keyStroke keyCode="83" modifiers="650"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="83" modifiers="650"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editor.foldFunctions" name="foldFunctions" displayKey="1785">
+		<values>
+			<keyStroke keyCode="51" modifiers="195"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="51" modifiers="195"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="project.saveProject" name="saveProject" displayKey="79">
+		<values>
+			<keyStroke keyCode="80" modifiers="195"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="80" modifiers="195"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editnig.italicTag" name="italicTag" displayKey="508">
+		<values>
+			<keyStroke keyCode="73" modifiers="520"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="73" modifiers="520"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editnig.heading3Tag" name="heading3Tag" displayKey="511">
+		<values>
+			<keyStroke keyCode="51" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="51" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.cut" name="cut" displayKey="53">
+		<values>
+			<keyStroke keyCode="88" modifiers="130"/>
+			<keyStroke keyCode="127" modifiers="65"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="88" modifiers="130"/>
+			<keyStroke keyCode="127" modifiers="65"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.find-prev" name="findPrev" displayKey="887">
+		<values>
+			<keyStroke keyCode="114" modifiers="65"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="114" modifiers="65"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="project.removeFromProject" name="removeFromProject" displayKey="361">
+		<values>
+			<keyStroke keyCode="127" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="127" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="debugging.stepOut" name="stepOut" displayKey="83">
+		<values>
+			<keyStroke keyCode="122" modifiers="65"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="122" modifiers="65"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editor.collapseInScope" name="collapseInScope" displayKey="1796">
+		<values>
+			<keyStroke keyCode="57" modifiers="195"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="57" modifiers="195"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="debugging.addWatch" name="addWatch" displayKey="86">
+		<values>
+			<keyStroke keyCode="119" modifiers="65"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="119" modifiers="65"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="vcs.diff" name="diff" displayKey="612">
+		<values/>
+		<initialvalues/>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.addRemovePHPBlockComment" name="addRemoveBlockCooment" displayKey="494">
+		<values>
+			<keyStroke keyCode="47" modifiers="195"/>
+			<keyStroke keyCode="111" modifiers="195"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="47" modifiers="195"/>
+			<keyStroke keyCode="111" modifiers="195"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.beginLine" name="beginLine" displayKey="852">
+		<values>
+			<keyStroke keyCode="36" modifiers="0"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="36" modifiers="0"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editor.gotoResource" name="gotoResource" displayKey="1704">
+		<values>
+			<keyStroke keyCode="71" modifiers="195"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="71" modifiers="195"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.redo" name="redo" displayKey="55">
+		<values>
+			<keyStroke keyCode="89" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="89" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editnig.toLowerCase" name="toLowerCase" displayKey="739">
+		<values>
+			<keyStroke keyCode="76" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="76" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="completionTool.showFunctionArguments" name="showParametersList" displayKey="981">
+		<values>
+			<keyStroke keyCode="32" modifiers="195"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="32" modifiers="195"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="vcs.update" name="update" displayKey="584">
+		<values>
+			<keyStroke keyCode="85" modifiers="520"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="85" modifiers="520"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editnig.boldTag" name="boldTag" displayKey="507">
+		<values>
+			<keyStroke keyCode="66" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="66" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editor.expandAllFolds" name="expandAllFolds" displayKey="1783">
+		<values>
+			<keyStroke keyCode="69" modifiers="195"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="69" modifiers="195"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.print" name="print" displayKey="61">
+		<values>
+			<keyStroke keyCode="80" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="80" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="debugging.debugURL" name="debugURL" displayKey="85">
+		<values>
+			<keyStroke keyCode="119" modifiers="0"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="119" modifiers="0"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.gotoNextProjectBookmark" name="gotoNextProjectBookmark" displayKey="535">
+		<values>
+			<keyStroke keyCode="113" modifiers="520"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="113" modifiers="520"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.toggleBookmark" name="toggleBookmark" displayKey="777">
+		<values>
+			<keyStroke keyCode="113" modifiers="0"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="113" modifiers="0"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.replace" name="replace" displayKey="58">
+		<values>
+			<keyStroke keyCode="72" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="72" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.removeAllBookmarks" name="removeAllBookmarks" displayKey="518">
+		<values>
+			<keyStroke keyCode="113" modifiers="195"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="113" modifiers="195"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editor.gotoLine" name="gotoLine" displayKey="64">
+		<values>
+			<keyStroke keyCode="71" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="71" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editor.showRecentFiles" name="showRecentFiles" displayKey="670">
+		<values>
+			<keyStroke keyCode="82" modifiers="195"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="82" modifiers="195"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.paste" name="paste" displayKey="52">
+		<values>
+			<keyStroke keyCode="86" modifiers="130"/>
+			<keyStroke keyCode="155" modifiers="65"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="86" modifiers="130"/>
+			<keyStroke keyCode="155" modifiers="65"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.duplicateSelection" name="duplicateSelection" displayKey="501">
+		<values>
+			<keyStroke keyCode="68" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="68" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="application.findInFiles" name="findInFiles" displayKey="366">
+		<values>
+			<keyStroke keyCode="70" modifiers="650"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="70" modifiers="650"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editnig.heading1Tag" name="heading1Tag" displayKey="509">
+		<values>
+			<keyStroke keyCode="49" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="49" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editnig.breakTag" name="breakTag" displayKey="513">
+		<values>
+			<keyStroke keyCode="10" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="10" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="debugging.finishDebugger" name="stop" displayKey="339">
+		<values>
+			<keyStroke keyCode="116" modifiers="65"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="116" modifiers="65"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="debugging.profileURL" name="profileURL" displayKey="936">
+		<values>
+			<keyStroke keyCode="123" modifiers="0"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="123" modifiers="0"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="debugging.stepOver" name="stepOver" displayKey="81">
+		<values>
+			<keyStroke keyCode="121" modifiers="0"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="121" modifiers="0"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="debugging.stepInto" name="stepInto" displayKey="82">
+		<values>
+			<keyStroke keyCode="122" modifiers="0"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="122" modifiers="0"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editor.collapseAllFolds" name="collapseAllFolds" displayKey="1795">
+		<values>
+			<keyStroke keyCode="67" modifiers="195"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="67" modifiers="195"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.saveAs" name="saveAs" displayKey="60">
+		<values>
+			<keyStroke keyCode="83" modifiers="195"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="83" modifiers="195"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.undo" name="undo" displayKey="54">
+		<values>
+			<keyStroke keyCode="90" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="90" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editnig.findMatchingBracket" name="findMatchingBracket" displayKey="514">
+		<values>
+			<keyStroke keyCode="77" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="77" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="debugging.serverConnection" name="serverConnection" displayKey="987">
+		<values/>
+		<initialvalues/>
+	</keyMapProperty>
+	<keyMapProperty id="editnig.toUpperCase" name="toUpperCase" displayKey="506">
+		<values>
+			<keyStroke keyCode="85" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="85" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editor.functionHelpAction" name="functionHelpAction" displayKey="68">
+		<values>
+			<keyStroke keyCode="112" modifiers="0"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="112" modifiers="0"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.reformatCode" name="reformatCodeAction" displayKey="63">
+		<values>
+			<keyStroke keyCode="70" modifiers="195"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="70" modifiers="195"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="project.newProject" name="newProject" displayKey="78">
+		<values>
+			<keyStroke keyCode="78" modifiers="195"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="78" modifiers="195"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="codeAnalyzer" name="analyzeCode" displayKey="965">
+		<values>
+			<keyStroke keyCode="65" modifiers="650"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="65" modifiers="650"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="debugging.toggleBreakpoint" name="toggleBreakpoint" displayKey="80">
+		<values>
+			<keyStroke keyCode="120" modifiers="0"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="120" modifiers="0"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="application.openNextEntry" name="openNextEntry" displayKey="567">
+		<values/>
+		<initialvalues>
+			<keyStroke keyCode="115" modifiers="0"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.eraseLine" name="eraseLine" displayKey="62">
+		<values>
+			<keyStroke keyCode="69" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="69" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.delete" name="delete" displayKey="279">
+		<values>
+			<keyStroke keyCode="127" modifiers="0"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="127" modifiers="0"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="debugging.showInBrowser" name="showInBrowser" displayKey="299">
+		<values>
+			<keyStroke keyCode="66" modifiers="650"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="66" modifiers="650"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editor.foldDocs" name="foldDocs" displayKey="1787">
+		<values>
+			<keyStroke keyCode="52" modifiers="195"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="52" modifiers="195"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.saveFile" name="saveFile" displayKey="59">
+		<values>
+			<keyStroke keyCode="83" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="83" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editor.foldClasses" name="foldClasses" displayKey="1786">
+		<values>
+			<keyStroke keyCode="50" modifiers="195"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="50" modifiers="195"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.find-next" name="findNext" displayKey="57">
+		<values>
+			<keyStroke keyCode="114" modifiers="0"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="114" modifiers="0"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.find" name="find" displayKey="56">
+		<values>
+			<keyStroke keyCode="70" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="70" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="vcs.log" name="log" displayKey="1788">
+		<values/>
+		<initialvalues/>
+	</keyMapProperty>
+	<keyMapProperty id="editor.gotoFile" name="gotoFile" displayKey="1719">
+		<values>
+			<keyStroke keyCode="71" modifiers="195"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="71" modifiers="650"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.copy" name="copy" displayKey="51">
+		<values>
+			<keyStroke keyCode="67" modifiers="130"/>
+			<keyStroke keyCode="155" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="67" modifiers="130"/>
+			<keyStroke keyCode="155" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editorComponent.closeAll" name="closeAll" displayKey="289">
+		<values>
+			<keyStroke keyCode="115" modifiers="195"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="115" modifiers="195"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="application.closeMessageComponent" name="closeMessageComponent" displayKey="1289">
+		<values>
+			<keyStroke keyCode="115" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="115" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="debugging.run" name="run" displayKey="421">
+		<values>
+			<keyStroke keyCode="116" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="116" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.gotoNextBookmark" name="gotoNextBookmark" displayKey="517">
+		<values>
+			<keyStroke keyCode="115" modifiers="0"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="113" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.openBookmarksDialog" name="openBookmarksDialog" displayKey="676">
+		<values>
+			<keyStroke keyCode="77" modifiers="195"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="77" modifiers="195"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editorComponent.closeDocument" name="closeDocument" displayKey="72">
+		<values>
+			<keyStroke keyCode="87" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="115" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.addRemoveComment" name="addRemoveCooment" displayKey="493">
+		<values>
+			<keyStroke keyCode="47" modifiers="130"/>
+			<keyStroke keyCode="111" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="47" modifiers="130"/>
+			<keyStroke keyCode="111" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="editnig.nbspTag" name="nbspTag" displayKey="874">
+		<values>
+			<keyStroke keyCode="192" modifiers="130"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="192" modifiers="130"/>
+		</initialvalues>
+	</keyMapProperty>
+	<keyMapProperty id="phpEditorPane.endLine" name="endLine" displayKey="853">
+		<values>
+			<keyStroke keyCode="35" modifiers="0"/>
+		</values>
+		<initialvalues>
+			<keyStroke keyCode="35" modifiers="0"/>
+		</initialvalues>
+	</keyMapProperty>
+</keyMap>

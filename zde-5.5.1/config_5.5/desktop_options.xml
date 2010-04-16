@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<zde_properties>
+	<properties>
+		<customized_property ID="desktop.antialiasing">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="desktop.language">
+			<locale language="en" country="" variant=""/>
+		</customized_property>
+		<customized_property ID="desktop.font">
+			<font name="Monospaced" style="0" size="11"/>
+		</customized_property>
+		<customized_property ID="editing.encoding">
+			<encoding name="default"/>
+		</customized_property>
+		<customized_property ID="desktop.phpVersion">
+			<phpVersion value="PHP5"/>
+		</customized_property>
+		<customized_property ID="desktop.includeFrameworkData">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="editing.supportAspTags">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="browser.commandLine">
+			<string value="/usr/bin/firefox"/>
+		</customized_property>
+		<customized_property ID="editing.manualUrl">
+			<manual_url spec="http://www.php.net/manual/en/" local="false"/>
+		</customized_property>
+		<customized_property ID="encoder.encoderCommandLine">
+			<file name="/usr/local/Zend/ZendGuard-4.0.0/bin/ZendGuard"/>
+		</customized_property>
+		<customized_property ID="desktop.showHiddenFiles">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="filesystem.filesystemModificationCheckEnabled">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="filesystem.filesystemModificationCheckTime">
+			<integer value="1000"/>
+		</customized_property>
+		<customized_property ID="editing.automaticFileReload">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="editing.searchResultDisplaySize">
+			<integer value="1000"/>
+		</customized_property>
+	</properties>
+</zde_properties>

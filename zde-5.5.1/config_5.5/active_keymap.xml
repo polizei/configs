@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<zde_properties>
+	<properties>
+		<customized_property ID="application.chosenConfig">
+			<string value="Polizei"/>
+		</customized_property>
+	</properties>
+</zde_properties>

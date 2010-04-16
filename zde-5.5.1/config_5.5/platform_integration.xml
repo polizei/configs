@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<zde_properties>
+	<properties>
+		<customized_property ID="platform.useDefaultGUI">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="platform.guiURL">
+			<string value="http://Server_Address/ZendPlatform"/>
+		</customized_property>
+		<customized_property ID="platform.username">
+			<string value=""/>
+		</customized_property>
+		<customized_property ID="platform.password">
+			<string value=""/>
+		</customized_property>
+		<customized_property ID="platform.isAutoRefresh">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="platform.refreshRate">
+			<integer value="5"/>
+		</customized_property>
+		<customized_property ID="platform.useLimits">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="platform.limitSize">
+			<integer value="100"/>
+		</customized_property>
+		<customized_property ID="platform.sortingFieldIndex">
+			<integer value="4"/>
+		</customized_property>
+		<customized_property ID="platform.sortingIsDesc">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="platform.eventsFromFilterKey">
+			<integer value="0"/>
+		</customized_property>
+		<customized_property ID="platform.eventTypesFilterKey">
+			<string value="all"/>
+		</customized_property>
+		<customized_property ID="platform.statusFilterKey">
+			<string value="all"/>
+		</customized_property>
+		<customized_property ID="platform.severityFilterKey">
+			<string value="all"/>
+		</customized_property>
+		<customized_property ID="platform.timeFilterKey">
+			<string value="0"/>
+		</customized_property>
+		<customized_property ID="platform.serversFilterArray">
+			<pIncludedSevers/>
+		</customized_property>
+		<customized_property ID="platform.serversNamesKey">
+			<string value="0"/>
+		</customized_property>
+		<customized_property ID="platform.clustersNamesKey">
+			<string value="0"/>
+		</customized_property>
+	</properties>
+</zde_properties>

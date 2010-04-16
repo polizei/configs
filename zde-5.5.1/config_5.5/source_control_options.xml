@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<zde_properties>
+	<properties>
+		<customized_property ID="sourceControl.tool">
+			<string value="Subversion"/>
+		</customized_property>
+		<customized_property ID="vcs.statusAdded">
+			<styleAttributes>
+				<BGColor r="-1"/>
+				<FGColor r="0" g="178" b="0"/>
+				<fontStyle value="0"/>
+				<token value="0"/>
+				<underline value="false"/>
+				<background value="false"/>
+			</styleAttributes>
+		</customized_property>
+		<customized_property ID="vcs.statusModified">
+			<styleAttributes>
+				<BGColor r="-1"/>
+				<FGColor r="0" g="0" b="255"/>
+				<fontStyle value="0"/>
+				<token value="0"/>
+				<underline value="false"/>
+				<background value="false"/>
+			</styleAttributes>
+		</customized_property>
+		<customized_property ID="vcs.statusMergedWithConflicts">
+			<styleAttributes>
+				<BGColor r="-1"/>
+				<FGColor r="255" g="0" b="0"/>
+				<fontStyle value="0"/>
+				<token value="0"/>
+				<underline value="false"/>
+				<background value="false"/>
+			</styleAttributes>
+		</customized_property>
+		<customized_property ID="vcs.statusUpToDate">
+			<styleAttributes>
+				<BGColor r="-1"/>
+				<FGColor r="0" g="0" b="0"/>
+				<fontStyle value="0"/>
+				<token value="0"/>
+				<underline value="false"/>
+				<background value="false"/>
+			</styleAttributes>
+		</customized_property>
+		<customized_property ID="vcs.statusNotVersioned">
+			<styleAttributes>
+				<BGColor r="-1"/>
+				<FGColor r="147" g="89" b="85"/>
+				<fontStyle value="0"/>
+				<token value="0"/>
+				<underline value="false"/>
+				<background value="false"/>
+			</styleAttributes>
+		</customized_property>
+		<customized_property ID="vcs.statusEnabled">
+			<boolean value="true"/>
+		</customized_property>
+	</properties>
+</zde_properties>

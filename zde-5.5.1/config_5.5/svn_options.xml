@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<zde_properties>
+	<properties>
+		<customized_property ID="svn.enableSubversionIntegration">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="svn.svnCommandLine">
+			<file name="/usr/bin/svn"/>
+		</customized_property>
+		<customized_property ID="svn.showUpdateDialog">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="svn.showCommitDialog">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="svn.showAddDialog">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="svn.showStatusDialog">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="svn.showDiffDialog">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="svn.showLogDialog">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="svn.showDeleteDialog">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="svn.showResolveDialog">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="svn.showRevertDialog">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="svn.showVisualDiff">
+			<boolean value="true"/>
+		</customized_property>
+	</properties>
+</zde_properties>

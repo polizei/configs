@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<zde_properties>
+	<properties>
+		<customized_property ID="editing.tabSize">
+			<integer value="4"/>
+		</customized_property>
+		<customized_property ID="editing.tabAsSpaces">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="editing.smartHome">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="editing.highlightingTurnOff">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="editing.autoIndent">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="editing.bracketPairInsertion">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="editing.curlyPairInsertion">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="editing.quotePairInsertion">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="editing.htmlClosingTagInsertion">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="editing.docBlocInsertion">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="editing.generateStub">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="editing.lineEnding">
+			<lineEnding lineEnd="Unix (\n)"/>
+		</customized_property>
+		<customized_property ID="editing.lineWrap">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="editing.wordWrap">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="editing.stripSpaces">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="editnig.matchingBracketLineTooltip">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="editing.bracketMatchingEnabled">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="editing.quoteMatchingEnabled">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="editing.currentLineHighlightingEnabled">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="editing.realTimeError">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="editing.maxRealTimeErrors">
+			<integer value="10"/>
+		</customized_property>
+		<customized_property ID="editing.foldingEnabled">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="editing.foldingNonPHP">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="editing.foldingDocBlocks">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="editing.foldingClasses">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="editing.foldingFunctions">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="editing.showPrintMargin">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="editing.printMarginColumn">
+			<integer value="80"/>
+		</customized_property>
+	</properties>
+</zde_properties>

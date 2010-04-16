@@ -1,0 +1,13 @@
+#!/bin/bash
+
+ls -l --color |\
+	grep --color=none '^d.*' |\
+		awk '{
+			printf $8"\t";
+			j++;
+			if (j == 8) {
+				j = 0;
+				printf "\n"
+			}
+		}'
+echo ""

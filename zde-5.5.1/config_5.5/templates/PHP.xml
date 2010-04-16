@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<templates>
+	<template abbreviation="pclon" description="Call parent's clone" context="PHP" code="parent::__clone();&#10;${END}" isUserTemplate="false"/>
+	<template abbreviation="cls" description="class statement" context="PHP" code="class ${name} {&#10;&#10;&#9;function ${name}() {&#10;&#9;&#9;${END}&#10;&#9;}&#10;}" isUserTemplate="false"/>
+	<template abbreviation="my_fr" description="mysql_fetch_row() loop" context="PHP" code="while ($${row} = mysql_fetch_row($${query})) {&#10;&#9;${END}&#10;}&#10;" isUserTemplate="false"/>
+	<template abbreviation="inst" description="instanceof statement" context="PHP" code="if (${VARIABLE} instanceof ${Object}) {&#10;&#9;${END}&#10;}" isUserTemplate="false"/>
+	<template abbreviation="prln" description="print with newline" context="PHP" code="print ${expr}.&quot;\n&quot;;&#10;${END}" isUserTemplate="false"/>
+	<template abbreviation="els" description="else statement" context="PHP" code="else {&#10;&#9;${END}&#10;}" isUserTemplate="false"/>
+	<template abbreviation="my_fo" description="mysql_fetch_object() loop" context="PHP" code="while ($${row} = mysql_fetch_object($${query})) {&#10;&#9;${END}&#10;}&#10;" isUserTemplate="false"/>
+	<template abbreviation="cln" description="Clone an object" context="PHP" code="$${new_obj} = clone $${obj};&#10;${END}" isUserTemplate="false"/>
+	<template abbreviation="eco" description="echo a string" context="PHP" code="echo(&quot;${END}&quot;);" isUserTemplate="false"/>
+	<template abbreviation="prv" description="prints a value" context="PHP" code="print(&quot;\${VARIABLE} = &quot;. ${VARIABLE});${END}" isUserTemplate="false"/>
+	<template abbreviation="fore" description="foreach statement" context="PHP" code="foreach (${ARRAY_NAME} as ${value}) {&#10;&#9;${END}&#10;}" isUserTemplate="false"/>
+	<template abbreviation="prs" description="print a string" context="PHP" code="print &quot;${str}&quot;;&#10;${END}" isUserTemplate="false"/>
+	<template abbreviation="elif" description="elseif statement" context="PHP" code="elseif (${condition}) {&#10;&#9;${END}&#10;}" isUserTemplate="false"/>
+	<template abbreviation="itar" description="iterates an array" context="PHP" code="for (${INDEX} = 0; ${INDEX} &lt; count(${ARRAY_NAME}); ${INDEX}++) {&#10;&#9;${END}&#10;}" isUserTemplate="false"/>
+	<template abbreviation="prm" description="prints the current method name" context="PHP" code="print(&quot;${CURRENT_METHOD}&quot;);${END}" isUserTemplate="false"/>
+	<template abbreviation="my_fa" description="mysql_fetch_array() loop" context="PHP" code="while ($${row} = mysql_fetch_array($${query})) {&#10;&#9;${END}&#10;}&#10;" isUserTemplate="false"/>
+	<template abbreviation="if" description="if statement" context="PHP" code="if (${condition}) {&#10;&#9;${END}&#10;}" isUserTemplate="false"/>
+	<template abbreviation="while" description="while loop" context="PHP" code="while (${condition}) {&#10;&#9;${END}&#10;}" isUserTemplate="false"/>
+	<template abbreviation="forek" description="foreach with key statement" context="PHP" code="foreach (${ARRAY_NAME} as ${key} =&gt; ${value}) {&#10;&#9;${END}&#10;}" isUserTemplate="false"/>
+	<template abbreviation="prc" description="prints the current class name" context="PHP" code="print(&quot;${CURRENT_CLASS}&quot;);${END}" isUserTemplate="false"/>
+	<template abbreviation="pr" description="print" context="PHP" code="print ${expr};&#10;${END}" isUserTemplate="false"/>
+	<template abbreviation="itdir" description="iterates a directory" context="PHP" code="$${dirh} = opendir(${DIRNAME});&#10;if ($${dirh}) {&#10;&#9;while ($dir_element = readdir($${dirh})) {&#10;&#9;&#9;${END}&#10;&#9;}&#10;&#9;unset($dir_element);&#10;&#9;closedir($${dirh});&#10;}" isUserTemplate="false"/>
+	<template abbreviation="fnc" description="function statement" context="PHP" code="function ${name}()&#10;{&#10;&#9;${END}&#10;}" isUserTemplate="false"/>
+	<template abbreviation="my_gc" description="Trap code output" context="PHP" code="ob_start();&#10;&#10;${END}&#10;&#10;$${CONTENTS} = ob_get_contents();&#10;ob_end_clean();&#10;" isUserTemplate="false"/>
+	<template abbreviation="swi" description="switch statement" context="PHP" code="switch (${key}) {&#10;&#9;case ${value}:&#10;&#9;&#9;${END}&#10;&#9;&#9;break;&#10;&#10;&#9;default:&#10;&#9;&#9;break;&#10;}" isUserTemplate="false"/>
+	<template abbreviation="pcon" description="Call parent constructor" context="PHP" code="parent::__construct();&#10;${END}" isUserTemplate="false"/>
+</templates>

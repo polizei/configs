@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# vim: ts=4 tabstop=4 noexpandtab
+
+ARGS=""
+while [[ "${1:0:1}" = "-" ]]; do
+	ARGS="${ARGS} ${1}"
+	shift
+done
+
+if [[ $# < 2 ]]; then
+	echo "Usage: `basename ${0}` [ssh params] <user@host> <ports>"
+	exit 1
+fi
+
+USER="${1/@*}"
+HOST="${1#*@}"
+
+if [[ -z "${USER}" || -z "${HOST}" || "${USER}" = "${HOST}" ]]; then
+	echo "Invalid user@host \`${1}'"
+	exit 1
+fi
+
+shift
+
+while [[ ! -z "${1}" ]]; do
+	nc ${HOST} ${1}
+	shift
+done
+
+ssh ${ARGS} ${USER}@${HOST}

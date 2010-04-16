@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<zde_properties>
+	<properties>
+		<customized_property ID="explorer.fileFilter">
+			<fileFilter name="All Files"/>
+		</customized_property>
+		<customized_property ID="project.projectFileFilter">
+			<fileFilter name="All Files"/>
+		</customized_property>
+	</properties>
+</zde_properties>

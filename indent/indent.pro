@@ -1,0 +1,1 @@
+-br -brf -brs -nbap -nbad -nbbb -nbbo -nbc -ncdw -ce -nbfda -nbfde -l80 -lc80 -lp -ncs -npcs -nprs -npsl -sai -saf -saw -sc -nv -ts4 -ut -i4 -ip0 -ci0 -cli0 -bli0 -ppi2

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<zde_properties>
+	<properties>
+		<customized_property ID="cvs.enableCvsIntegration">
+			<boolean value="false"/>
+		</customized_property>
+		<customized_property ID="cvs.cvsCommandLine">
+			<file name="/home/polizei/Zend/ZendStudio-5.5.1/bin/SourceControl/cvs/cvs"/>
+		</customized_property>
+		<customized_property ID="cvs_rsh_env_var">
+			<string value=""/>
+		</customized_property>
+		<customized_property ID="cvs.showUpdateDialog">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="cvs.showCommitDialog">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="cvs.showAddDialog">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="cvs.showStatusDialog">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="cvs.showDiffDialog">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="cvs.showLogDialog">
+			<boolean value="true"/>
+		</customized_property>
+		<customized_property ID="cvs.showVisualDiff">
+			<boolean value="true"/>
+		</customized_property>
+	</properties>
+</zde_properties>

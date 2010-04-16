@@ -1,0 +1,3 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<fileType name="Text files" description="Text files" defaultExtension="txt" extensions="txt;bat;sh;log;cmd;cgi;yaml;yml;cfg;" binary="false" openExternally="0" openWithCommand="null" askBeforeOpenning="false"/>
