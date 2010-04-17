@@ -1,10 +1,10 @@
 # ٩๏̯͡๏۶ #
 
-#### directory structure: ####
+*directory structure:*
 
 * **bash**: bashrc, bash_profile and command_not_found hook for my arch
 * **bin**: my /usr/local/bin scripts
-* **cron**: additional entries to /etc/cron.watever
+* **cron**: additional entries to /etc/cron.whatever
 * **indent**: my .indent.pro for c files indentation
 * **motd**: my message-of-the-day file (/etc/motd.esc)
 * **nano**: nanorc and /usr/share/nano files
