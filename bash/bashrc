@@ -14,7 +14,7 @@ blue='\[\033[01;34m\]'
 pink='\[\033[01;35m\]'
 
 ## make it fancy
-PS1="${reset}[${red}\u${reset}@${blue}\h${reset}(${pink}\w${reset})]\$ "
+PS1="${reset}[${red}\u${reset}@${blue}\h${reset}(${pink}\w${reset})]\\$ "
 
 ## some cleanup
 unset reset red blue pink
