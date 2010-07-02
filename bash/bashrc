@@ -65,11 +65,12 @@ alias pacman='sudo pacman'
 
 
 #
-# add /usr/local/bin, /usr/local/sbin and ~/bin to path
+# add /usr/local/bin, /usr/local/sbin, ~/bin and ~/.local/bin to path
 #
 [[ ! $PATH =~ "/usr/local/bin" ]]	&& PATH="${PATH}:/usr/local/bin"
 [[ ! $PATH =~ "/usr/local/sbin" ]]	&& PATH="${PATH}:/usr/local/sbin"
 [[ -d "${HOME}/bin" ]]				&& PATH="${HOME}/bin:${PATH}"
+[[ -d "${HOME}/.local/bin" ]]		&& PATH="${HOME}/.local/bin:${PATH}"
 
 #
 # disable some common history files (i hate'em)
