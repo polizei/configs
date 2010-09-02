@@ -87,7 +87,7 @@ endif
 autocmd FileType * execute "setlocal complete+="."k/usr/share/vim/vim72/syntax/".getbufvar("%","current_syntax").".vim"
 
 " Make it behave like most ides out there
-set completeopt=longest,menu
+set completeopt=longest,menuone
 
 " <C-S> completion (much like every other ide)
 function! Completion_CtrlSpace()

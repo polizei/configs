@@ -79,24 +79,24 @@ class IPCalc
 
 	def to_s
 		result = 'DEC (8/8/8/8) : ' + @ip.join('.') + "\n" +
-				 'BIN (8/8/8/8) : ' + @ip.collect{ |x| x.to_bin_s }.join('.') + "\n" +
-				 'OCT (8/8/8/8) : ' + @ip.collect{ |x| x.to_oct_s }.join('.') + "\n" +
-				 'HEX (8/8/8/8) : ' + @ip.collect{ |x| x.to_hex_s }.join('.') + "\n" +
+				 'BIN (8/8/8/8) : ' + @ip.collect{ |x| x.to_i.to_bin_s }.join('.') + "\n" +
+				 'OCT (8/8/8/8) : ' + @ip.collect{ |x| x.to_i.to_oct_s }.join('.') + "\n" +
+				 'HEX (8/8/8/8) : ' + @ip.collect{ |x| x.to_i.to_hex_s }.join('.') + "\n" +
 				 "\n" +
 				 'DEC (8/8/16)  : ' + @ip[0, 2].join('.') + '.' + (@ip[2] * 256 + @ip[3]).to_s + "\n" +
-				 'BIN (8/8/16)  : ' + @ip[0, 2].collect{ |x| x.to_bin_s }.join('.') + '.' + (@ip[2] * 256 + @ip[3]).to_bin_s(16) + "\n" +
-				 'OCT (8/8/16)  : ' + @ip[0, 2].collect{ |x| x.to_oct_s }.join('.') + '.' + (@ip[2] * 256 + @ip[3]).to_oct_s(7) + "\n" +
-				 'HEX (8/8/16)  : ' + @ip[0, 2].collect{ |x| x.to_hex_s }.join('.') + '.' + (@ip[2] * 256 + @ip[3]).to_hex_s(4) + "\n" +
+				 'BIN (8/8/16)  : ' + @ip[0, 2].collect{ |x| x.to_i.to_bin_s }.join('.') + '.' + (@ip[2] * 256 + @ip[3]).to_i.to_bin_s(16) + "\n" +
+				 'OCT (8/8/16)  : ' + @ip[0, 2].collect{ |x| x.to_i.to_oct_s }.join('.') + '.' + (@ip[2] * 256 + @ip[3]).to_i.to_oct_s(7) + "\n" +
+				 'HEX (8/8/16)  : ' + @ip[0, 2].collect{ |x| x.to_i.to_hex_s }.join('.') + '.' + (@ip[2] * 256 + @ip[3]).to_i.to_hex_s(4) + "\n" +
 				 "\n" +
 				 'DEC (8/24)    : ' + @ip[0].to_s + '.' + ((@ip[1] * 256 + @ip[2]) * 256 + @ip[3]).to_s + "\n" +
-				 'BIN (8/24)    : ' + @ip[0].to_bin_s + '.' + ((@ip[1] * 256 + @ip[2]) * 256 + @ip[3]).to_bin_s(24) + "\n" +
-				 'OCT (8/24)    : ' + @ip[0].to_oct_s + '.' + ((@ip[1] * 256 + @ip[2]) * 256 + @ip[3]).to_oct_s(10) + "\n" +
-				 'HEX (8/24)    : ' + @ip[0].to_hex_s + '.' + ((@ip[1] * 256 + @ip[2]) * 256 + @ip[3]).to_hex_s(6) + "\n" +
+				 'BIN (8/24)    : ' + @ip[0].to_i.to_bin_s + '.' + ((@ip[1] * 256 + @ip[2]) * 256 + @ip[3]).to_i.to_bin_s(24) + "\n" +
+				 'OCT (8/24)    : ' + @ip[0].to_i.to_oct_s + '.' + ((@ip[1] * 256 + @ip[2]) * 256 + @ip[3]).to_i.to_oct_s(10) + "\n" +
+				 'HEX (8/24)    : ' + @ip[0].to_i.to_hex_s + '.' + ((@ip[1] * 256 + @ip[2]) * 256 + @ip[3]).to_i.to_hex_s(6) + "\n" +
 				 "\n" +
 				 'DEC (32)      : ' + (((@ip[0] * 256 + @ip[1]) * 256 + @ip[2]) * 256 + @ip[3]).to_s + "\n" +
-				 'BIN (32)      : ' + (((@ip[0] * 256 + @ip[1]) * 256 + @ip[2]) * 256 + @ip[3]).to_bin_s(32) + "\n" +
-				 'OCT (32)      : ' + (((@ip[0] * 256 + @ip[1]) * 256 + @ip[2]) * 256 + @ip[3]).to_oct_s(13) + "\n" +
-				 'HEX (32)      : ' + (((@ip[0] * 256 + @ip[1]) * 256 + @ip[2]) * 256 + @ip[3]).to_hex_s(8) + "\n"
+				 'BIN (32)      : ' + (((@ip[0] * 256 + @ip[1]) * 256 + @ip[2]) * 256 + @ip[3]).to_i.to_bin_s(32) + "\n" +
+				 'OCT (32)      : ' + (((@ip[0] * 256 + @ip[1]) * 256 + @ip[2]) * 256 + @ip[3]).to_i.to_oct_s(13) + "\n" +
+				 'HEX (32)      : ' + (((@ip[0] * 256 + @ip[1]) * 256 + @ip[2]) * 256 + @ip[3]).to_i.to_hex_s(8) + "\n"
 	end
 end
 
