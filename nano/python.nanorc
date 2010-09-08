@@ -11,7 +11,10 @@ color brightcyan "\<(and|as|assert|break|class|continue|def|del|elif|else|except
 
 ## strings
 color brightgreen "\"(\\.|[^\\\"])*\"|'(\\.|[^\\'])*'"
-#color brightgreen start=""""[^"]" end=""""" start="'''[^']" end="'''"
+#color brightgreen start=""""" end="""""
+#color brightgreen start="'''" end="'''"
+
+## comments
 color brightred "#.*$"
 
 ## trailing whitespaces
