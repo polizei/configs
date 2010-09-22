@@ -32,6 +32,7 @@ eval `dircolors --sh`
 ## ls aliases
 alias ls='ls -ACF --color=auto'
 alias ll='ls -hAlF --color=auto --time-style=long-iso'
+alias li='ls -hAlFi --color=auto --time-style=long-iso'
 alias l='ls -AlF --color=auto --time-style=long-iso'
 
 ## dooh!
