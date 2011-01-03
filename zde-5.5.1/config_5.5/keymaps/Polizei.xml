@@ -237,7 +237,7 @@
 	</keyMapProperty>
 	<keyMapProperty id="editor.gotoResource" name="gotoResource" displayKey="1704">
 		<values>
-			<keyStroke keyCode="71" modifiers="195"/>
+			<keyStroke keyCode="82" modifiers="130"/>
 		</values>
 		<initialvalues>
 			<keyStroke keyCode="71" modifiers="195"/>
@@ -514,7 +514,9 @@
 		</initialvalues>
 	</keyMapProperty>
 	<keyMapProperty id="application.openNextEntry" name="openNextEntry" displayKey="567">
-		<values/>
+		<values>
+			<keyStroke keyCode="115" modifiers="0"/>
+		</values>
 		<initialvalues>
 			<keyStroke keyCode="115" modifiers="0"/>
 		</initialvalues>
@@ -589,7 +591,7 @@
 	</keyMapProperty>
 	<keyMapProperty id="editor.gotoFile" name="gotoFile" displayKey="1719">
 		<values>
-			<keyStroke keyCode="71" modifiers="195"/>
+			<keyStroke keyCode="84" modifiers="130"/>
 		</values>
 		<initialvalues>
 			<keyStroke keyCode="71" modifiers="650"/>
@@ -631,7 +633,7 @@
 	</keyMapProperty>
 	<keyMapProperty id="phpEditorPane.gotoNextBookmark" name="gotoNextBookmark" displayKey="517">
 		<values>
-			<keyStroke keyCode="115" modifiers="0"/>
+			<keyStroke keyCode="113" modifiers="130"/>
 		</values>
 		<initialvalues>
 			<keyStroke keyCode="113" modifiers="130"/>
