@@ -1,5 +1,8 @@
 # ~/.bashrc - bash interactive session config
 
+# load rvm stuff
+[[ -s "${HOME}/.rvm/scripts/rvm" ]] && source "${HOME}/.rvm/scripts/rvm"
+
 # is this an interactive session?
 [ -z "$PS1" ] && return
 
@@ -95,3 +98,11 @@ SVN_EDITOR=vim
 # export settings
 #
 export PS1 HISTFILE LESSHSTFILE SVN_EDITOR
+
+#
+# haxe settings
+#
+export HAXE_LIBRARY_PATH=/opt/haxe/std:.
+
+# yeah
+fortune ~ninja/configs/fortunes/programming
