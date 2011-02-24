@@ -104,5 +104,15 @@ export PS1 HISTFILE LESSHSTFILE SVN_EDITOR
 #
 export HAXE_LIBRARY_PATH=/opt/haxe/std:.
 
+#
+# Set vim as default editor
+#
+export EDITOR=vim
+
+#
+# Python settings
+#
+export PYTHONDOCS=/usr/share/doc/python2/html/
+
 # yeah
 fortune ~ninja/configs/fortunes/programming
